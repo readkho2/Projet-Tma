@@ -1,4 +1,6 @@
 <?php
+var_dump($_POST);
+var_dump($_FILES);
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES["profile_pic"])) {
     $uploadDir = "Dossier-dest/"; // Dossier spécifique où les fichiers seront sauvegardés
 
